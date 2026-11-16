@@ -17,3 +17,10 @@ public class Produto {
         totalEstoque += quantidade;
             System.out.println(quantidade + " unidade adicionadas ao estoque.")
     }
+
+    public int ConsultarSaldo(){
+        return totalEstoque
+    }
+    public String getNome(){
+        return nome;
+    }
