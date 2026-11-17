@@ -19,6 +19,13 @@
             <version>5.11.4</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-gherkin</artifactId>
+            <version>8.1.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
