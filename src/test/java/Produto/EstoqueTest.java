@@ -1,3 +1,5 @@
+package Produto;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -26,7 +28,7 @@ public class EstoqueTest {
     public void saldoInsuficiente() {
         Estoque estoque = new Estoque("Monitor", 10);
 
-        boolean resultado = estoque.retirarSaldo(15);
+        boolean resultado = estoque.retirarSaldo(11);
 
         assertFalse(resultado);
         assertEquals(10, estoque.consultarSaldo());
