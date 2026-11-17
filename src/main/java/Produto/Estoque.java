@@ -19,8 +19,12 @@ public class Produto {
     }
 
     public int ConsultarSaldo(){
-        return totalEstoque
+        return totalEstoque;
     }
     public String getNome(){
         return nome;
+    }
+
+    public void RetirarSaldo(int totalEstoque){
+        this.totalEstoque -= totalEstoque;
     }
