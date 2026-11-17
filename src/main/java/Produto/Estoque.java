@@ -1,30 +1,39 @@
-public class Produto {
+
+public class Estoque {
 
     private String nome;
     private int totalEstoque;
 
-    public Produto(String nome, int totalEstoque) {
+    public Estoque(String nome, int totalEstoque) {
         this.nome = nome;
         this.totalEstoque = totalEstoque;
     }
-}
-    public void adicionarUnidades(int quantidade){
+
+    public void adicionarUnidades(int quantidade) {
         if (quantidade <= 0) {
-            System.out.println(" A quantidade deve ser maior que zero.";
+            System.out.println("A quantidade deve ser maior que zero.");
             return;
-            )
         }
+
         totalEstoque += quantidade;
-            System.out.println(quantidade + " unidade adicionadas ao estoque.")
+        System.out.println(quantidade + " unidades adicionadas ao estoque.");
     }
 
-    public int ConsultarSaldo(){
+    public int consultarSaldo() {
         return totalEstoque;
     }
-    public String getNome(){
+
+    public String getNome() {
         return nome;
     }
 
-    public void RetirarSaldo(int totalEstoque){
-        this.totalEstoque -= totalEstoque;
+    public boolean retirarSaldo(int quantidade) {
+        if (quantidade <= 0 || quantidade > totalEstoque) {
+            System.out.println("Quantidade inválida ou estoque insuficiente.");
+            return false;
+        }
+
+        totalEstoque -= quantidade;
+        return true;
     }
+}
