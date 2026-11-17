@@ -10,6 +10,18 @@ Foram feitos 3 cenários
 
 Foram feitas validações no código para inserção saldo negativo e produto em branco, retirar saldo maior do que o disponível.
 
+## Demonstração do código 
+```bash
+  Produto: Teclado
+  Estoque inicial: 10
+  5 unidades adicionadas ao estoque.
+  Estoque atual: 15
+  3 unidades retiradas do estoque.
+  Estoque atual: 12
+  Quantidade inválida ou estoque insuficiente.
+  Estoque final: 12
+```
+
 ## lOGS DOS TESTES
 ```bash
 Test set: Produto.EstoqueCucumberTest
