@@ -35,7 +35,7 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in Pr
 ```
 ## Integrantes: 
 
-Luis Filipe, Kaique Prado e Mariana Silva.
+Luis Filipe Pereira, Kaique Prado e Mariana Silva.
 
 ## Requisitos
 
