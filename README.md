@@ -33,7 +33,9 @@ Test set: Produto.EstoqueTest
 -------------------------------------------------------------------------------
 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 s -- in Produto.EstoqueTest
 ```
-Integrantes: Luis Filipe, Kaique Prado e Mariana Silva.
+## Integrantes: 
+
+Luis Filipe, Kaique Prado e Mariana Silva.
 
 ## Requisitos
 
